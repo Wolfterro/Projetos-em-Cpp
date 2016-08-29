@@ -24,3 +24,20 @@
     cd Projetos-em-Cpp/Collatz
     g++ Collatz.cpp -o Collatz
     ./Collatz
+
+## Cálculo do IMC
+
+### Descrição:
+
+#### Este é um simples programa que possui a função de calcular o índice de massa corporal do usuário.
+#### O programa utiliza o terminal ou prompt de comando e pede ao usuário que insira o seu peso em quilogramas e sua altura em metros.
+#### Ao final do processo, o programa mostra o valor do IMC em quilogramas por metro quadrado.
+
+### Download:
+
+#### Utilize o git para clonar o repositório e utilize o compilador g++ para criar o binário:
+
+    git clone https://github.com/Wolfterro/Projetos-em-Cpp.git
+    cd Projetos-em-Cpp/CalculoDoIMC
+    g++ CIMC.cpp -o CIMC
+    ./CIMC
