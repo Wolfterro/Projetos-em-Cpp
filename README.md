@@ -58,3 +58,30 @@
     cd Projetos-em-Cpp/PedraPapelTesoura
     g++ PPT.cpp -o PPT
     ./PPT
+
+## CtemPP - Conversor de Temperatura em C++
+
+#### Este é um programa básico para conversão de temperaturas, convertendo os valores para as outras unidades de temperatura, como Celsius, Fahrenheit e Kelvin.
+
+#### Basta executar o programa via terminal e inserir os argumentos necessários. O programa então irá fazer os cálculos e irá mostrar seus valores em outras unidades de temperatura.
+
+#### Programa similar a este escrito em C pode ser encontrado neste repositório: [Projetos em C](https://github.com/Wolfterro/Projetos-em-C)
+
+#### Programa similar a este e com o uso de interface gráfica pode ser encontrado neste repositório (requer Java):  [Conversor de Temperatura 2016](https://github.com/Wolfterro/Conversor-de-Temperatura-2016)
+
+#### Aqui está uma lista com os possíveis argumentos:
+      
+      Unidade:
+      '-c' ou '--celsius':    Converte de Celsius para Fahrenheit e Kelvin
+      '-f' ou '--fahrenheit': Converte de Fahrenheit para Celsius e Kelvin
+      '-k' ou '--kelvin':     Converte de Kelvin para Celsius e Fahrenheit
+      '-h' ou '--help':       Mostra a tela de ajuda
+
+### Download:
+
+#### Utilize o git para clonar o repositório e utilize o compilador g++ para criar o binário:
+
+    git clone https://github.com/Wolfterro/Projetos-em-Cpp.git
+    cd Projetos-em-Cpp/CtemPP
+    g++ ctempp.cpp -o ctempp
+    ./ctempp [unidade] [temperatura]
